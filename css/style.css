@@ -58,7 +58,7 @@ h3 {
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.7em;
     line-height: 1.4;
 }
 
@@ -107,18 +107,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-}
-
-.card {
-    background-color: #ffffff;
-    border-radius: .5rem;
-    color: var(--grayviolet);
-    padding: 1rem 3rem 2.5rem;
-}
-
-.card__title {
-    color: var(--darkviolet);
-    font-size: 1.6em;
 }
 
 .circle {
@@ -276,12 +264,9 @@ header {
 .block-card {
     position: relative;
     display: flex;
-    gap: 2.5rem;
     margin: 5rem 0;
-    min-height: 20rem;
-}
-.card {
-    z-index: 1;
+    min-height: 30rem;
+    justify-content: space-between;
 }
 
 .block-card .card:nth-child(2) {
@@ -301,9 +286,25 @@ header {
     margin-bottom: 2rem;
 }
 
+.card {
+    background-color: #ffffff;
+    border-radius: .5rem;
+    color: var(--grayviolet);
+    padding: 1rem 3.3rem 2.5rem;
+    width: calc(33% - 1.5rem);
+    z-index: 1;
+}
+
+.card__title {
+    color: var(--darkviolet);
+    font-size: 2.3em;
+    margin-bottom: 1.3rem;
+}
+
 .section-dark {
     color: #ffffff;
     padding: 5rem 0;
+    margin-top: 5rem;
 }
 
 .section-dark div {
